@@ -9,7 +9,7 @@ import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
 const Login = ({ setIsAuthenticated }) => {
-  const [loading, setLoading] = useState(false);
+  
 
   const navigate = useNavigate();
 
